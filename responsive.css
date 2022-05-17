@@ -2,19 +2,50 @@
 @media(min-width:1024px){
 
 } */
+
+
+
+
 /* ------------------------ipad------------------ */
-/* @media(min-width: 740px) and (max-width:1023px){
-  
-} */
-/* ------------------------mobie------------------ */
-@media(max-width:739px){
-    #header{
-        background-color: white;
+/* @media(max-width:1023px){
+    #tour .img-tour{
+        display: block;
+        width: 100%;
     }
- #theband + .edit-img-full{
-      width: 100%!important;
-  }
-  #container{
-      /* background-color: red!important; */
-  }
+  
+    #tour .tour-contain{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+ */
+
+
+/* ------------------------mobie------------------ */
+@media(max-width: 739px){
+ #nav > li {
+     display: block;
+ }
+ #tour .img-tour{
+    display: block!important;
+    width: 100%;
+}
+
+#tour .tour-contain{
+    width: 100%;
+    margin: 0 auto;
+}
+#tour .img-tour{
+    display: block;
+    width: 100%;
+}
+
+#tour .tour-contain{
+    width: 100%;
+    margin: 0 auto;
+}
+#tour .place-tour{
+    width: 100%!important;
+}
 }
